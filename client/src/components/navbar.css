@@ -1,0 +1,41 @@
+
+
+  .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      background-color:white;
+      color: black;
+  }
+
+
+  
+  
+  .navbar {
+      display: flex;
+  }
+  
+  .list {
+      list-style-type: none;
+      display: flex;
+  }
+  
+  .list li {
+      margin-right: 10px;
+  }
+  
+  .list li:last-child {
+      margin-right: 0;
+  }
+  
+  .list li a {
+      text-decoration: none;
+      color: black;
+      padding: 5px 10px;
+      border-radius: 5px;
+  }
+  
+  .list li a:hover {
+      background-color:  hsl(122, 100%, 35%);
+  }
